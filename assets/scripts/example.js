@@ -6,14 +6,14 @@
   var MESH = {
     width: 1.2,
     height: 1.2,
-    depth: 10,
+    depth: 0,
     segments: 16,
     slices: 8,
     xRange: 0.8,
     yRange: 0.1,
     zRange: 1.0,
     ambient: '#555555',
-    diffuse: '#FFFFFF',
+    diffuse: '#15AFF0',
     speed: 0.002
   };
 
@@ -24,8 +24,8 @@
     count: 2,
     xyScalar: 1,
     zOffset: 100,
-    ambient: '#880066',
-    diffuse: '#FF8800',
+    ambient: '#004888',
+    diffuse: '#00D1FF',
     speed: 0.001,
     gravity: 1200,
     dampening: 0.95,
@@ -33,7 +33,7 @@
     maxLimit: null,
     minDistance: 20,
     maxDistance: 400,
-    autopilot: false,
+    autopilot: true,
     draw: true,
     bounds: FSS.Vector3.create(),
     step: FSS.Vector3.create(
@@ -50,7 +50,7 @@
   var CANVAS = 'canvas';
   var SVG = 'svg';
   var RENDER = {
-    renderer: CANVAS
+    renderer: WEBGL
   };
 
   //------------------------------
