@@ -142,7 +142,7 @@
     createMesh();
     createLights();
     addEventListeners();
-    addControls();
+    //addControls();
     resize(container.offsetWidth, container.offsetHeight);
     animate();
   }
