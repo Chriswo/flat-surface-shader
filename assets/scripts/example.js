@@ -12,8 +12,8 @@
     xRange: 0.8,
     yRange: 0.1,
     zRange: 1.0,
-    ambient: '#555555',
-    diffuse: '#15AFF0',
+    ambient: '#000000',
+    diffuse: '#CDCDCD',
     speed: 0.002
   };
 
@@ -24,8 +24,8 @@
     count: 2,
     xyScalar: 1,
     zOffset: 100,
-    ambient: '#004888',
-    diffuse: '#00D1FF',
+    ambient: '#880000',
+    diffuse: '#550a0a',
     speed: 0.001,
     gravity: 1200,
     dampening: 0.95,
